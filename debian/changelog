@@ -1,0 +1,40 @@
+ruby-minispec-metadata (3.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + ruby-minispec-metadata: Add Multi-Arch: foreign.
+
+  [ Daniel Leidert ]
+  * d/control (Standards-Version): Bump to 4.6.0.
+  * d/copyright: Add Upstream-Contact.
+    (Copyright): Update team copyright.
+  * d/rules: Use gem installation layout and install upstream changelog.
+  * d/upstream/metadata: Add Archive and Changelog and fix YAML syntax.
+
+ -- Daniel Leidert <dleidert@debian.org>  Thu, 07 Oct 2021 00:13:04 +0200
+
+ruby-minispec-metadata (3.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only reupload for migration policy.
+
+  [ Cédric Boutillier ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Daniel Leidert ]
+  * d/control (Standards-Version): Bump to 4.5.0.
+    (Depends): Use ${ruby:Depends} and remove interpreter.
+
+ -- Daniel Leidert <dleidert@debian.org>  Wed, 19 Feb 2020 23:49:43 +0100
+
+ruby-minispec-metadata (3.3.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #930075)
+
+ -- Jongmin Kim <jmkim@pukyong.ac.kr>  Thu, 06 Jun 2019 23:13:20 +0900

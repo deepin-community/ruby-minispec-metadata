@@ -1,0 +1,2 @@
+version=4
+https://gemwatch.debian.net/minispec-metadata .*/minispec-metadata-(.*).tar.gz

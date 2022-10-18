@@ -1,0 +1,29 @@
+Source: ruby-minispec-metadata
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Jongmin Kim <jmkim@pukyong.ac.kr>
+Section: ruby
+Testsuite: autopkgtest-pkg-ruby
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               gem2deb,
+               rake,
+               ruby-awesome-print,
+               ruby-minitest
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-minispec-metadata
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-minispec-metadata.git
+Homepage: https://github.com/ordinaryzelig/minispec-metadata
+Rules-Requires-Root: no
+XS-Ruby-Versions: all
+
+Package: ruby-minispec-metadata
+Architecture: all
+Multi-Arch: foreign
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${misc:Depends},
+         ${ruby:Depends},
+         ${shlibs:Depends}
+Description: define and access metadata in MiniTest::Spec
+ Minispec::Metadata provides a library to pass metadata to MiniTest::Spec
+ descriptions and specs like in RSpec. It allows adding metadata to specs
+ similar to RSpec.

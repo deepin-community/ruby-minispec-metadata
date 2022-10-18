@@ -1,0 +1,19 @@
+From: Jongmin Kim <jmkim@pukyong.ac.kr>
+Date: Wed, 19 Feb 2020 23:47:13 +0100
+Subject: Remove bundler for fixing the test failure
+
+Forwarded: not-needed
+Last-Update: 2019-06-06
+---
+ spec/helper.rb | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/spec/helper.rb b/spec/helper.rb
+index bc69274..4b5b920 100644
+--- a/spec/helper.rb
++++ b/spec/helper.rb
+@@ -1,4 +1,3 @@
+-require 'bundler/setup'
+ require 'awesome_print'
+ 
+ require 'minitest/autorun'
